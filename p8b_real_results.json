@@ -1,0 +1,37 @@
+{
+  "test": "CST P8b",
+  "data_source": "Qiskit FakeProvider (real IBM calibration snapshots)",
+  "n_backends": 6,
+  "n_gate_pairs": 772,
+  "pearson_r": 0.004443363832897968,
+  "pearson_p": 0.9019020654397583,
+  "spearman_r": 0.00405634463632093,
+  "spearman_p": 0.9104087981388592,
+  "verdict": "NOT_SUPPORTED",
+  "backends": {
+    "fake_sherbrooke": {
+      "n_pairs": 135,
+      "pearson_r": 0.007225725501604281
+    },
+    "fake_brisbane": {
+      "n_pairs": 143,
+      "pearson_r": -0.13858590883917
+    },
+    "fake_osaka": {
+      "n_pairs": 124,
+      "pearson_r": 0.05271088763002269
+    },
+    "fake_kawasaki": {
+      "n_pairs": 133,
+      "pearson_r": -0.05095450282830137
+    },
+    "fake_kyiv": {
+      "n_pairs": 106,
+      "pearson_r": -0.022057186749651143
+    },
+    "fake_quebec": {
+      "n_pairs": 131,
+      "pearson_r": -0.00780302154919433
+    }
+  }
+}
